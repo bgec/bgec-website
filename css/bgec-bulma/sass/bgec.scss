@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// Set your brand colors
+$purple: #6A5FBB;
+$lighter-purple: lighten($purple, 5%);
+$lightest-purple: lighten($lighter-purple, 10%);
+
+// Update Bulma's global variables
+$primary: $purple;
+$link: $lighter-purple;
+$link-hover: $lightest-purple;
+
+@import "../node_modules/bulma/bulma.sass";

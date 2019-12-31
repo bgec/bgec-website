@@ -1,0 +1,16 @@
+{
+  "name": "bgec-bulma",
+  "version": "1.0.0",
+  "description": "Bulma customizations for bgec-website",
+  "main": "sass/bgec.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/bgec.scss ../../css/bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.0"
+  }
+}
